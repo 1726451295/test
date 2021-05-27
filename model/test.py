@@ -1,11 +1,11 @@
 import unittest
 
-from generate import generate_an_fraction
+from generator import random_flag
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        self.assertEqual(add_test(),2)
+        self.assertEqual(random_flag(self, flag))
 
 
 if __name__ == '__main__':
-    unittest.main()generate_an_fraction
+    unittest.main()
